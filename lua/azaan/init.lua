@@ -1,3 +1,4 @@
+require("azaan.remap")
 vim.opt.relativenumber = true
 
 vim.opt.tabstop = 4
