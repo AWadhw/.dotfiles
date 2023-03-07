@@ -1,4 +1,6 @@
 require("azaan.remap")
+--print("hello from your init in the azaan/ file")
+
 vim.opt.relativenumber = true
 
 vim.opt.tabstop = 4
@@ -10,3 +12,4 @@ vim.opt.hlsearch = false
 vim.opt.smartindent = true
 
 vim.opt.wrap = false
+
