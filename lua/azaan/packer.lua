@@ -6,8 +6,10 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
+  use 'tpope/vim-commentary'
   use 'folke/tokyonight.nvim'
   use 'mfussenegger/nvim-dap'
+  use 'm4xshen/autoclose.nvim'
   use { 
       'rcarriga/nvim-dap-ui',
       requires = {'mfussenegger/nvim-dap'}
