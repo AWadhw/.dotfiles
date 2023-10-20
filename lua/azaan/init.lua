@@ -1,4 +1,5 @@
 require("azaan.remap")
+require("azaan.cmdopts")
 --print("hello from your init in the azaan/ file")
 
 vim.opt.relativenumber = true
